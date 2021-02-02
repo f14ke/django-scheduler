@@ -1,6 +1,35 @@
+# Python
+*.pyc
+__pycache__/
+
+# Environnement
+env/
+projetweb/
+
+# Informations protégées
+.env
+
+# Pour l'instant, ne pas inclure les migrations puisqu'on travaille sur des environnements différents.
+migrations/
+
+# VSCode
+.vscode
+*.code-workspace
+
+# SQLite
+*.sqlite3
+
+# Static 
+root/
+assets/
+bower_components/
+
+# NPM
+package-lock.json
+
+# django-scheduler gitignore
 *.swp
 *~
-*.pyc
 /.coverage
 /.eggs/
 /.idea/
